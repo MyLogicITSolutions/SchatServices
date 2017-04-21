@@ -89,6 +89,13 @@ namespace SChat.DataAccess
 			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), mobileNum);
 			return ((ISingleResult<GetUserDetailsResult>)(result.ReturnValue));
 		}
+		
+		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="lokesh.GetChatList")]
+		public ISingleResult<GetChatListResult> GetChatList([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="VarChar(256)")] string user_id)
+		{
+			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), user_id);
+			return ((ISingleResult<GetChatListResult>)(result.ReturnValue));
+		}
 	}
 	
 	public partial class MyMessagesResult
@@ -300,6 +307,32 @@ namespace SChat.DataAccess
 				if ((this._password != value))
 				{
 					this._password = value;
+				}
+			}
+		}
+	}
+	
+	public partial class GetChatListResult
+	{
+		
+		private System.Nullable<int> _id;
+		
+		public GetChatListResult()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_id", DbType="Int")]
+		public System.Nullable<int> id
+		{
+			get
+			{
+				return this._id;
+			}
+			set
+			{
+				if ((this._id != value))
+				{
+					this._id = value;
 				}
 			}
 		}

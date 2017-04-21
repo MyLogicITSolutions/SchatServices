@@ -70,6 +70,24 @@ namespace SChat.Business
             return itemListResponse;
         }
 
+        public ChatListResponse GetChatList(string userid)
+        {
+            ChatListResponse chatListResponse = new ChatListResponse();
+            List<chatList> ChatList = new List<chatList>();
 
+            IDBManager itemDBManager = new DBManager();
+
+            IList<GetChatListResult> chat = itemDBManager.GetChatList(userid).ToList();
+            foreach (GetChatListResult result in chat)
+            {
+                ChatList.Add(new chatList
+                {
+                  id=Convert.ToInt32(result.id)
+
+                });
+            }
+            chatListResponse.ChatLists = ChatList;
+            return chatListResponse;
+        }
     }
 }

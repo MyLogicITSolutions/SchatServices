@@ -83,5 +83,20 @@ namespace SChat.DataAccess
                 return null;
             }
         }
+
+        public IList<GetChatListResult> GetChatList(string userid)
+        {
+            try
+            {
+                ISingleResult<GetChatListResult> result = DBContext.GetChatList(userid);
+                return result.ToList();
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
+
+
     }
 }

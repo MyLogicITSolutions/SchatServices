@@ -35,3 +35,13 @@ C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SC
 C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.Business\obj\Debug\SChat.Business.csprojResolveAssemblyReference.cache
 C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.Business\obj\Debug\SChat.Business.dll
 C:\Users\SAVVYIT\Documents\GitHub\ReviewsPro\Schat\Services\SChatServices.API\SChat.Business\obj\Debug\SChat.Business.pdb
+C:\Users\SAVVYIT\Documents\GitHub\SchatServices\SChatServices.API\SChat.Business\bin\Debug\SChat.Business.dll
+C:\Users\SAVVYIT\Documents\GitHub\SchatServices\SChatServices.API\SChat.Business\bin\Debug\SChat.Business.pdb
+C:\Users\SAVVYIT\Documents\GitHub\SchatServices\SChatServices.API\SChat.Business\bin\Debug\SChat.DataAccess.dll
+C:\Users\SAVVYIT\Documents\GitHub\SchatServices\SChatServices.API\SChat.Business\bin\Debug\SChat.Models.dll
+C:\Users\SAVVYIT\Documents\GitHub\SchatServices\SChatServices.API\SChat.Business\bin\Debug\SChat.DataAccess.pdb
+C:\Users\SAVVYIT\Documents\GitHub\SchatServices\SChatServices.API\SChat.Business\bin\Debug\SChat.DataAccess.dll.config
+C:\Users\SAVVYIT\Documents\GitHub\SchatServices\SChatServices.API\SChat.Business\bin\Debug\SChat.Models.pdb
+C:\Users\SAVVYIT\Documents\GitHub\SchatServices\SChatServices.API\SChat.Business\obj\Debug\SChat.Business.csprojResolveAssemblyReference.cache
+C:\Users\SAVVYIT\Documents\GitHub\SchatServices\SChatServices.API\SChat.Business\obj\Debug\SChat.Business.dll
+C:\Users\SAVVYIT\Documents\GitHub\SchatServices\SChatServices.API\SChat.Business\obj\Debug\SChat.Business.pdb

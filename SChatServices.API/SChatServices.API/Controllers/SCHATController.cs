@@ -13,9 +13,6 @@ namespace SChatServices.API.Controllers
 {
     public class SCHATController : ApiController
     {
-        // GET: SCHAT
-       
-
         [HttpGet]
         public ConversationResponse ConversationList(int objectId,int userid)
         {
@@ -37,14 +34,22 @@ namespace SChatServices.API.Controllers
             return (itemService.GetInsertMessageList(objectId,userid,message));
         }
 
-
-
         [HttpGet]
         public UserDetailsResponse userdetailsList(string id)
         {
             UserDetailsResponse resp = new UserDetailsResponse();
             IService itemService = new Service();
             resp = itemService.GetUserDetailsList(id);
+            return resp;
+        }
+
+
+        [HttpGet]
+        public ChatListResponse ChatList(string id)
+        {
+            ChatListResponse resp = new ChatListResponse();
+            IService itemService = new Service();
+            resp = itemService.GetChatList(id);
             return resp;
         }
 

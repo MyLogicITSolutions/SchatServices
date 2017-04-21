@@ -14,5 +14,6 @@ namespace SChat.DataAccess
         IList<MyMessagesResult> GetMessageList(int SenderID, int ReciverID);
         int GetInsertMessageList(int SenderID, int ReciverID, string message);
         IList<GetUserDetailsResult> GetUserDetails(string MobileNum);
+        IList<GetChatListResult> GetChatList(string userid);
     }
 }
