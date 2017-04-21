@@ -317,6 +317,8 @@ namespace SChat.DataAccess
 		
 		private System.Nullable<int> _id;
 		
+		private long _mobile;
+		
 		public GetChatListResult()
 		{
 		}
@@ -333,6 +335,22 @@ namespace SChat.DataAccess
 				if ((this._id != value))
 				{
 					this._id = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_mobile", DbType="BigInt NOT NULL")]
+		public long mobile
+		{
+			get
+			{
+				return this._mobile;
+			}
+			set
+			{
+				if ((this._mobile != value))
+				{
+					this._mobile = value;
 				}
 			}
 		}

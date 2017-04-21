@@ -9,7 +9,7 @@ namespace SChat.Models
     public class chatList
     {
         public int id { get; set; }
-     
+        public string mobile { get; set; }     
         
     }
 }

@@ -82,7 +82,9 @@ namespace SChat.Business
             {
                 ChatList.Add(new chatList
                 {
-                  id=Convert.ToInt32(result.id)
+                    id = Convert.ToInt32(result.id),
+                    mobile=result.mobile.ToString()
+                  
 
                 });
             }

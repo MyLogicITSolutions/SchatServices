@@ -45,6 +45,7 @@
     <Parameter Name="user_id" Type="System.String" DbType="VarChar(256)" />
     <ElementType Name="GetChatListResult">
       <Column Name="id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="mobile" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
     </ElementType>
   </Function>
 </Database>
